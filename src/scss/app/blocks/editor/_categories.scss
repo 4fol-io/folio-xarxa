@@ -1,0 +1,19 @@
+
+// Categories block.
+
+.wp-block-categories,
+.wp-block-archives {
+
+	&__list,
+	&-list {
+		list-style: none;
+		padding: 0 !important;
+		font-size: $h5-font-size;
+	}
+
+	&__dropdown,
+	&-dropdown {
+		
+	}
+
+}

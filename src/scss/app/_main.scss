@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 600px){
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
+
+
+.admin-bar{
+    .site{
+        min-height:  calc(100vh - 46px) !important;
+    }
+    @media screen and (min-width: 783px){
+        .site{
+            min-height:  calc(100vh - 32px) !important;
+        }
+    }
+}
+
+.site-container{
+    overflow:hidden;
+}
+
+/*
+@include media-breakpoint-up(xl) {
+    .container-wide {
+        max-width: 1380px;
+    }
+}
+*/

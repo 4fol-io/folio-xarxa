@@ -1,0 +1,513 @@
+# Copyright (C) 2021 Tres&punt
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: folio-xarxa 1.0.0\n"
+"POT-Creation-Date: 2022-09-19 13:32+0200\n"
+"PO-Revision-Date: 2022-09-19 16:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: folio-xarxa\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+"X-Poedit-SearchPathExcluded-3: dist\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ui! No es troba la pàgina."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Sembla que no s'ha trobat res en aquest lloc. Potser proveu un dels enllaços "
+"següents o una cerca?"
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr "Categories més utilitzades"
+
+#: 404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Proveu de buscar-los als arxius mensuals. %1$s"
+
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentari a &ldquo;%1$s&rdquo;"
+
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentari a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentaris a &ldquo;%2$s&rdquo;"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "Els comentaris són tancats."
+
+#: footer.php:35
+msgid "Go to top"
+msgstr "Anar a dalt"
+
+#: header.php:58
+msgid "Skip to content"
+msgstr "Saltar al contingut"
+
+#: header.php:140
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer.php:33 inc/customizer.php:43 inc/customizer.php:51
+#: inc/customizer.php:58
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccioneu &mdash;"
+
+#: inc/customizer.php:34 inc/setup.php:186 inc/setup.php:191 inc/setup.php:196
+#: inc/setup.php:201 inc/setup.php:206
+msgid "Primary"
+msgstr "Primari"
+
+#: inc/customizer.php:35 inc/setup.php:211 inc/setup.php:216 inc/setup.php:221
+#: inc/setup.php:226 inc/setup.php:231
+msgid "Secondary"
+msgstr "Secundari"
+
+#: inc/customizer.php:36
+msgid "Gray"
+msgstr "Gris"
+
+#: inc/customizer.php:37 inc/setup.php:246
+msgid "Green"
+msgstr "Verd"
+
+#: inc/customizer.php:38 inc/setup.php:256
+msgid "Orange"
+msgstr "Taronja"
+
+#: inc/customizer.php:39 inc/setup.php:236
+msgid "Red"
+msgstr "Vermell"
+
+#: inc/customizer.php:44
+msgid "Left"
+msgstr "Esquerra"
+
+#: inc/customizer.php:45
+msgid "Center"
+msgstr "Centrat"
+
+#: inc/customizer.php:46
+msgid "Right"
+msgstr "Dreta"
+
+#: inc/customizer.php:47
+msgid "Justify"
+msgstr "Justificar"
+
+#: inc/customizer.php:52
+msgid "List"
+msgstr "Llista"
+
+#: inc/customizer.php:53
+msgid "Grid"
+msgstr "Grilla"
+
+#: inc/customizer.php:59
+msgid "Full content"
+msgstr "Contingut complet"
+
+#: inc/customizer.php:60
+msgid "Summary"
+msgstr "Resum"
+
+#: inc/customizer.php:80
+msgid "Folio Settings"
+msgstr "Configuració Folio"
+
+#: inc/customizer.php:90
+msgid "General Settings"
+msgstr "Configuració general"
+
+#: inc/customizer.php:113
+msgid "Archive Layout"
+msgstr "Disseny de l'arxiu"
+
+#: inc/customizer.php:126
+msgid "Archive content"
+msgstr "Arxiu contingut"
+
+#: inc/customizer.php:139
+msgid "Display Featured Image in Archive"
+msgstr "Mostra la imatge destacada a l′arxiu"
+
+#: inc/customizer.php:149
+msgid "Heading Settings"
+msgstr "Configuració de la capçalera"
+
+#: inc/customizer.php:161
+msgid "Display Custom WPML Lang Menu"
+msgstr "Mostrar menú de idioma WPML personalizado"
+
+#: inc/customizer.php:175
+msgid "Display Header CTA"
+msgstr "Mostra botó d′acció de la capçalera"
+
+#: inc/customizer.php:193
+msgid "CTA Button Type"
+msgstr "Tipus de botó d’acció"
+
+#: inc/customizer.php:207
+msgid "Button outline style"
+msgstr "Estil de contorn de botons"
+
+#: inc/customizer.php:221
+msgid "CTA Title"
+msgstr "Titol de botó d'acció"
+
+#: inc/customizer.php:232
+msgid "CTA Link"
+msgstr "Enllaç de botó d'acció"
+
+#: inc/customizer.php:246
+msgid "Opens in new window"
+msgstr "S′obre en una finestra nova"
+
+#: inc/customizer.php:256
+msgid "Footer Settings"
+msgstr "Configuració peu de pàgina"
+
+#: inc/customizer.php:269
+msgid "Display Go To Top"
+msgstr "Mostra Anar a dalt"
+
+#: inc/customizer.php:283
+msgid "Footer Text"
+msgstr "Text del peu de pàgina"
+
+#: inc/customizer.php:292
+msgid "Footer Text Align"
+msgstr "Alineació de text del peu de pàgina"
+
+#: inc/images.php:30
+msgid "Featured"
+msgstr "Destacat"
+
+#: inc/nav.php:392
+msgid "Add a menu"
+msgstr "Afegiu un menú"
+
+#: inc/nav.php:602
+msgid "Open menu"
+msgstr "Obre el menú"
+
+#: inc/pagination.php:22
+msgid "Page"
+msgstr "Pàgina"
+
+#: inc/pagination.php:49 inc/pagination.php:115 inc/pagination.php:153
+msgid "Previous"
+msgstr "Anterior"
+
+#: inc/pagination.php:79 inc/pagination.php:116 inc/pagination.php:154
+msgid "Next"
+msgstr "Següent"
+
+#: inc/pagination.php:117
+msgid "Navigation"
+msgstr "Navegació"
+
+#: inc/pagination.php:155
+msgid "Comments navigation"
+msgstr "Navegació de comentaris"
+
+#: inc/pagination.php:180
+msgid "Posts navigation"
+msgstr "Navegació d'entrades"
+
+#: inc/pagination.php:184
+msgid "Older posts"
+msgstr "Entrades anteriors"
+
+#: inc/pagination.php:188
+msgid "Newer posts"
+msgstr "Entrades més recents"
+
+#: inc/setup.php:52
+msgid "Primary menu"
+msgstr "Menú principal"
+
+#: inc/setup.php:112
+msgid "Small"
+msgstr "Petit"
+
+#: inc/setup.php:117
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/setup.php:122
+msgid "Medium"
+msgstr "Mitjà"
+
+#: inc/setup.php:127
+msgid "Large"
+msgstr "Gran"
+
+#: inc/setup.php:132
+msgid "XLarge"
+msgstr "Molt gran"
+
+#: inc/setup.php:137
+msgid "Huge"
+msgstr "Extra gran"
+
+#: inc/setup.php:241
+msgid "Red Light"
+msgstr "Vermell clar"
+
+#: inc/setup.php:251
+msgid "Green Light"
+msgstr "Verd clar"
+
+#: inc/setup.php:261
+msgid "Dark"
+msgstr "Fosc"
+
+#: inc/setup.php:266
+msgid "White"
+msgstr "Blanc"
+
+#: inc/setup.php:298
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: inc/setup.php:299
+msgid "Add widgets here to appear in your footer site."
+msgstr "Afegiu widgets aquí per aparèixer al peu de página de l'lloc."
+
+#: inc/setup.php:353
+msgid "(opens in new window)"
+msgstr "(s'obre en una finestra nova)"
+
+#: inc/setup.php:354
+msgid "Close menu"
+msgstr "Tanca menu"
+
+#: inc/setup.php:355
+msgid "Loading"
+msgstr "Carregant"
+
+#: inc/setup.php:356
+msgid "expand / collapse"
+msgstr "expandir / contraure"
+
+#: inc/setup.php:357
+msgid "Load more"
+msgstr "Carregar més"
+
+#: inc/setup.php:447
+msgid "This theme requires you to install the Folio Xarxa Companion Plugin."
+msgstr "Aquest tema requereix que instal·leu el complement de Folio Xarxa."
+
+#: inc/templates.php:26
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: inc/templates.php:38
+msgid "Previous Post"
+msgstr "Entrada anterior"
+
+#: inc/templates.php:42
+msgid "Next Post"
+msgstr "Entrada següent"
+
+#: inc/templates.php:60
+#, php-format
+msgid "Leave a Comment<span class=\"sr-only\"> on %s</span>"
+msgstr "Deixa un comentari<span class=\"sr-only\"> a %s</span>"
+
+#: inc/templates.php:84
+#, php-format
+msgid "Edit %s"
+msgstr "Edita %s"
+
+#: inc/templates.php:120
+msgid "Publication date"
+msgstr "Data de publicació"
+
+#: inc/templates.php:141
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "per %s"
+
+#: inc/templates.php:157
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: inc/templates.php:172
+msgid "Categories"
+msgstr "Categories"
+
+#: inc/templates.php:253
+msgid "Please enter the message"
+msgstr "Si us plau, introdueix el contingut"
+
+#: inc/templates.php:257
+msgid "Your comment"
+msgstr "El teu comentari"
+
+#: inc/templates.php:258
+msgid "Your message"
+msgstr "El teu missatge"
+
+#: inc/templates.php:261
+msgid "Send comment"
+msgstr "Enviar comentari"
+
+#: inc/templates.php:262
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+#: inc/templates.php:263
+msgid "Cancel Reply"
+msgstr "Cancel·la la resposta"
+
+#: inc/templates.php:273
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr "Connectat com %s. Edita perfil."
+
+#: inc/templates.php:276
+msgid "Log out?"
+msgstr "Tancar sessió?"
+
+#: inc/templates.php:293 inc/utils.php:417
+msgid "Please enter the name"
+msgstr "Si us plau, introdueix el nom"
+
+#: inc/templates.php:294 inc/utils.php:418
+msgid "Please enter a valid email"
+msgstr "Si us plau, introdueix una adreça electrònica vàlida"
+
+#: inc/templates.php:297 inc/templates.php:298 inc/utils.php:421
+#: inc/utils.php:422
+msgid "Name"
+msgstr "Nom"
+
+#: inc/templates.php:302 inc/templates.php:303 inc/utils.php:426
+#: inc/utils.php:427
+msgid "Your email"
+msgstr "El teu email"
+
+#: inc/templates.php:307 inc/templates.php:308 inc/utils.php:431
+#: inc/utils.php:432
+msgid "Website"
+msgstr "Lloc web"
+
+#: inc/templates.php:316 inc/utils.php:441
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Deseu el meu nom, correu electrònic i lloc web en aquest navegador per a la "
+"propera vegada que comenteu."
+
+#: inc/utils.php:162 inc/utils.php:210
+msgid "Home"
+msgstr "Inici"
+
+#: inc/utils.php:173 inc/utils.php:175 inc/utils.php:177 inc/utils.php:179
+#: inc/utils.php:181
+#, php-format
+msgid "<li class=\"breadcrumb-item\">%s</li>"
+msgstr "<li class=\"breadcrumb-item\">%s</li>"
+
+#: inc/utils.php:175
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/utils.php:177
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/utils.php:184
+#, php-format
+msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
+msgstr "<li class=\"breadcrumb-item\">Cerca: %s</li>"
+
+#: inc/utils.php:281
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "Sense títol"
+
+#: inc/utils.php:366
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca per a: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No s’ha trobat res"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Preparat per a publicar la primera entrada? <a href=\"%1$s\">Comença aquí</"
+"a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Malauradament, no hi ha res que coincideixi amb els termes de cerca. Si us "
+"plau, torna-ho a provar amb algunes paraules clau diferents."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembla que no trobem el que busques. Potser la funció de cerca pot ajudar."
+
+#: template-parts/content-single.php:38 template-parts/content.php:45
+#, php-format
+msgid "Continue reading<span class=\"sr-only\"> \"%s\"</span>"
+msgstr "Seguir llegint<span class=\"sr-only\"> \"%s\"</span>"
+
+#: template-parts/menu-offcanvas.php:20
+msgid "Close"
+msgstr "Tanca"
+
+#: template-parts/searchform.php:2
+msgid "Search for:"
+msgstr "Cerca per:"
+
+#: template-parts/searchform.php:4 template-parts/searchform.php:6
+msgid "Search"
+msgstr "Cercar"

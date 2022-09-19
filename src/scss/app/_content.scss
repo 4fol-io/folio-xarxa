@@ -1,0 +1,149 @@
+.sticky {
+	display: block;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.entry-cats{
+	font-size: $font-size-sm;
+	margin-bottom: 1rem;
+	ul{
+		list-style-type: none;
+		display: block;
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			margin-right: .25rem;
+		}
+	}
+	a {
+		margin: 0 0 .5rem;
+		background: rgba($primary,.1);
+		color: rgba($primary,.75);
+		display: inline-block;
+		padding: .5rem .5rem;
+		font-weight: $font-weight-normal;
+		&:hover, &:focus{
+			text-decoration: none;
+			background-color: rgba($primary,.75);
+			color: $white;
+		}
+	}
+}
+
+.entry-tags {
+	font-size: $font-size-sm;
+	margin-bottom: 1rem;
+	ul{
+		list-style-type: none;
+		display: block;
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			margin-right: .25rem;
+		}
+	}
+	a{
+		margin: 0 0 .5rem;
+		background: rgba($primary,.1);
+		color: rgba($primary,.75);
+		display: inline-block;
+		padding: .25rem .5rem;
+		font-weight: $font-weight-normal;
+		&:hover, &:focus{
+			text-decoration: none;
+			background-color: rgba($primary,.75);
+			color: $white;
+		}
+	}
+}
+
+
+.entry-meta{
+	color: rgba(0, 11, 51, 0.7);
+	font-size: $font-size-sm;
+	font-family: $font-family-alt;
+	margin-bottom: 1rem;
+	a{
+		color: rgba(0, 11, 51, 0.7);
+		&:hover, &:focus{
+			color: $link-hover-color;
+		}
+	}
+
+	> * {
+		&:before{
+			content: '\2022';
+			color: rgba(0, 11, 51, 0.5);
+			padding: 0 .5rem;
+			font-size: $font-size-sm;
+			vertical-align: center;
+		}
+		&:first-child:before{
+			content: '';
+			display: none;
+		}
+	}
+	
+}
+
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 0 1.5rem;
+}
+
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+.single {
+	.hentry{
+		margin-bottom: 2.5rem;
+	}
+}
+
+.page,
+.search, 
+.archive{
+	.hentry{
+		margin-bottom: 1.5rem;
+	}
+}
+
+
+
+.layout-grid,
+.layout-masonry{
+    .hentry{
+		display: flex;
+		flex-direction: column;
+        background: $white;
+        box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+        border-radius: 10px;
+		height: 100%;
+		padding: 2rem;
+		.entry-title{
+			font-size: $h5-font-size;
+		}
+		.entry-content,
+		.entry-summary{
+			font-size: $font-size-sm;
+		}
+
+		.featured-img{
+			text-align: center;
+			margin-left: -2rem;
+			margin-right: -2rem;
+		}
+    }
+}
+

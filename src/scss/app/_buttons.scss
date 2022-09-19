@@ -1,0 +1,47 @@
+// Buttons variants
+
+
+.btn-secondary,
+.btn-warning{
+
+    color: $white;
+
+    @include hover() {
+        color: $white;
+    }
+      
+    &:focus,
+    &.focus {
+        color: $white;
+    }
+
+    &.disabled,
+    &:disabled {
+        color: $white;
+    }
+
+}
+
+
+.btn-default{
+    color:  rgba($primary, 0.5);
+    border-color: rgba($primary, 0.5);
+    
+    @include hover() {
+        color:  rgba($primary, 0.8);
+        border-color: rgba($primary, 0.8);
+    }
+      
+    &:focus,
+    &.focus {
+        color:  rgba($primary, 0.8);
+        border-color: rgba($primary, 0.8);
+    }
+
+    &.disabled,
+    &:disabled {
+        color: $secondary;
+        border-color: $secondary;
+    }
+
+}

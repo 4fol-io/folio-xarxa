@@ -1,0 +1,10 @@
+.site{
+    @each $color, $value in $style-colors {
+        .has-#{$color}-color {
+            color: $value;
+        }
+        .has-#{$color}-background-color{
+            background-color: $value;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+/* Sticky scroll top */
+
+.sticky-scroll-foot{
+    .sticky-scroll {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        z-index: 9;
+        width: 60px;
+        height: 60px;
+        border: 0;
+        display: inline-block;
+        border-radius: 50%;
+        &.off{
+            display: none;
+        }
+        background-color: $secondary;
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        background-image: $icon-svg-chevron-white;
+        background-position: center center;
+        transition: all .25s ease;
+        transform: rotate(180deg);
+        &:hover, &:focus{
+            background-color: $primary;
+        }
+    }
+}

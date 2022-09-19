@@ -1,0 +1,494 @@
+# Copyright (C) 2021 Tres&punt
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: folio-xarxa 1.0.0\n"
+"POT-Creation-Date: 2022-09-19 13:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Raúl Solana <rsolana@tresipunt.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: folio-xarxa\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+"X-Poedit-SearchPathExcluded-3: dist\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links below or a "
+"search?"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:48
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:35
+msgid "Go to top"
+msgstr ""
+
+#: header.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:140
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:33 inc/customizer.php:43 inc/customizer.php:51 inc/customizer.php:58
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer.php:34 inc/setup.php:186 inc/setup.php:191 inc/setup.php:196
+#: inc/setup.php:201 inc/setup.php:206
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer.php:35 inc/setup.php:211 inc/setup.php:216 inc/setup.php:221
+#: inc/setup.php:226 inc/setup.php:231
+msgid "Secondary"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Gray"
+msgstr ""
+
+#: inc/customizer.php:37 inc/setup.php:246
+msgid "Green"
+msgstr ""
+
+#: inc/customizer.php:38 inc/setup.php:256
+msgid "Orange"
+msgstr ""
+
+#: inc/customizer.php:39 inc/setup.php:236
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Justify"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "List"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Full content"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Summary"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Folio Settings"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Archive content"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Display Featured Image in Archive"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Heading Settings"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Display Custom WPML Lang Menu"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Display Header CTA"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "CTA Button Type"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Button outline style"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "CTA Title"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "CTA Link"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Opens in new window"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "Display Go To Top"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:292
+msgid "Footer Text Align"
+msgstr ""
+
+#: inc/images.php:30
+msgid "Featured"
+msgstr ""
+
+#: inc/nav.php:392
+msgid "Add a menu"
+msgstr ""
+
+#: inc/nav.php:602
+msgid "Open menu"
+msgstr ""
+
+#: inc/pagination.php:22
+msgid "Page"
+msgstr ""
+
+#: inc/pagination.php:49 inc/pagination.php:115 inc/pagination.php:153
+msgid "Previous"
+msgstr ""
+
+#: inc/pagination.php:79 inc/pagination.php:116 inc/pagination.php:154
+msgid "Next"
+msgstr ""
+
+#: inc/pagination.php:117
+msgid "Navigation"
+msgstr ""
+
+#: inc/pagination.php:155
+msgid "Comments navigation"
+msgstr ""
+
+#: inc/pagination.php:180
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/pagination.php:184
+msgid "Older posts"
+msgstr ""
+
+#: inc/pagination.php:188
+msgid "Newer posts"
+msgstr ""
+
+#: inc/setup.php:52
+msgid "Primary menu"
+msgstr ""
+
+#: inc/setup.php:112
+msgid "Small"
+msgstr ""
+
+#: inc/setup.php:117
+msgid "Normal"
+msgstr ""
+
+#: inc/setup.php:122
+msgid "Medium"
+msgstr ""
+
+#: inc/setup.php:127
+msgid "Large"
+msgstr ""
+
+#: inc/setup.php:132
+msgid "XLarge"
+msgstr ""
+
+#: inc/setup.php:137
+msgid "Huge"
+msgstr ""
+
+#: inc/setup.php:241
+msgid "Red Light"
+msgstr ""
+
+#: inc/setup.php:251
+msgid "Green Light"
+msgstr ""
+
+#: inc/setup.php:261
+msgid "Dark"
+msgstr ""
+
+#: inc/setup.php:266
+msgid "White"
+msgstr ""
+
+#: inc/setup.php:298
+msgid "Footer"
+msgstr ""
+
+#: inc/setup.php:299
+msgid "Add widgets here to appear in your footer site."
+msgstr ""
+
+#: inc/setup.php:353
+msgid "(opens in new window)"
+msgstr ""
+
+#: inc/setup.php:354
+msgid "Close menu"
+msgstr ""
+
+#: inc/setup.php:355
+msgid "Loading"
+msgstr ""
+
+#: inc/setup.php:356
+msgid "expand / collapse"
+msgstr ""
+
+#: inc/setup.php:357
+msgid "Load more"
+msgstr ""
+
+#: inc/setup.php:447
+msgid "This theme requires you to install the Folio Xarxa Companion Plugin."
+msgstr ""
+
+#: inc/templates.php:26
+msgid "Pages:"
+msgstr ""
+
+#: inc/templates.php:38
+msgid "Previous Post"
+msgstr ""
+
+#: inc/templates.php:42
+msgid "Next Post"
+msgstr ""
+
+#: inc/templates.php:60
+#, php-format
+msgid "Leave a Comment<span class=\"sr-only\"> on %s</span>"
+msgstr ""
+
+#: inc/templates.php:84
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/templates.php:120
+msgid "Publication date"
+msgstr ""
+
+#: inc/templates.php:141
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/templates.php:157
+msgid "Tags"
+msgstr ""
+
+#: inc/templates.php:172
+msgid "Categories"
+msgstr ""
+
+#: inc/templates.php:253
+msgid "Please enter the message"
+msgstr ""
+
+#: inc/templates.php:257
+msgid "Your comment"
+msgstr ""
+
+#: inc/templates.php:258
+msgid "Your message"
+msgstr ""
+
+#: inc/templates.php:261
+msgid "Send comment"
+msgstr ""
+
+#: inc/templates.php:262
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/templates.php:263
+msgid "Cancel Reply"
+msgstr ""
+
+#: inc/templates.php:273
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: inc/templates.php:276
+msgid "Log out?"
+msgstr ""
+
+#: inc/templates.php:293 inc/utils.php:417
+msgid "Please enter the name"
+msgstr ""
+
+#: inc/templates.php:294 inc/utils.php:418
+msgid "Please enter a valid email"
+msgstr ""
+
+#: inc/templates.php:297 inc/templates.php:298 inc/utils.php:421 inc/utils.php:422
+msgid "Name"
+msgstr ""
+
+#: inc/templates.php:302 inc/templates.php:303 inc/utils.php:426 inc/utils.php:427
+msgid "Your email"
+msgstr ""
+
+#: inc/templates.php:307 inc/templates.php:308 inc/utils.php:431 inc/utils.php:432
+msgid "Website"
+msgstr ""
+
+#: inc/templates.php:316 inc/utils.php:441
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: inc/utils.php:162 inc/utils.php:210
+msgid "Home"
+msgstr ""
+
+#: inc/utils.php:173 inc/utils.php:175 inc/utils.php:177 inc/utils.php:179 inc/utils.php:181
+#, php-format
+msgid "<li class=\"breadcrumb-item\">%s</li>"
+msgstr ""
+
+#: inc/utils.php:175
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/utils.php:177
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/utils.php:184
+#, php-format
+msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
+msgstr ""
+
+#: inc/utils.php:281
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: inc/utils.php:366
+msgid "Cancel"
+msgstr ""
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:38 template-parts/content.php:45
+#, php-format
+msgid "Continue reading<span class=\"sr-only\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/menu-offcanvas.php:20
+msgid "Close"
+msgstr ""
+
+#: template-parts/searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: template-parts/searchform.php:4 template-parts/searchform.php:6
+msgid "Search"
+msgstr ""

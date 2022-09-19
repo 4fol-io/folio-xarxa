@@ -1,0 +1,44 @@
+/** Defaults form inputs */
+
+.form-control {
+    background-clip: initial;
+}
+
+input:not([type="submit"]):not(.form-control), textarea:not(.form-control) {
+    @extend .form-control;
+}
+
+select{
+    @extend .custom-select;
+}
+
+textarea {
+	width: 100%;
+}
+
+label {
+    font-weight: $font-weight-bold;
+    &.custom-control-label{
+        font-weight: $font-weight-normal;
+        font-size: $font-size-normal;
+    }
+}
+
+.custom-control-label::before{
+    top: .1rem;
+}
+
+// Custom file
+
+.custom-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 8em;
+    text-overflow: ellipsis;
+}
+
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
