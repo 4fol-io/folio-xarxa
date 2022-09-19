@@ -1,0 +1,48 @@
+/* Text meant only for screen readers */
+.screen-reader-text,
+.icon-alt {
+    @extend .sr-only;
+    @extend .sr-only-focusable;
+}
+
+
+/* Highlight */
+
+mark {
+    display: inline-block;
+    background-color: $mark-bg;
+    color: $primary;
+    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+::selection { background: $primary; color: $white; }
+
+/* List */
+
+.list--inline-tags,
+.post-categories {
+    @include list-tags;
+    margin-bottom: 0;
+    a {
+        @include link-tag;
+    }
+}
+
+
+.text-center{
+    .twitter-tweet{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.text-right{
+    .twitter-tweet{
+        margin-left: auto;
+    }
+}

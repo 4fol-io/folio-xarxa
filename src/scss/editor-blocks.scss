@@ -1,0 +1,66 @@
+
+/* Editor Blocks */
+// NOTE: Most commented are not yet adapted to GEF
+
+@import "~bootstrap/scss/functions";
+@import "app/variables";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "app/mixins";
+@import "app/fonts";
+
+.editor-styles-wrapper{
+
+    @import "~bootstrap/scss/root";
+    @import "~bootstrap/scss/reboot";
+    @import "~bootstrap/scss/type";
+
+    @import "~bootstrap/scss/buttons";
+    @import "~bootstrap/scss/code";
+    @import "~bootstrap/scss/forms";
+    @import "~bootstrap/scss/tables";
+    //@import "~bootstrap/scss/alert";
+    @import "~bootstrap/scss/utilities";
+
+
+    @import "app/blocks-editor";
+
+    // @import "app/main";
+    @import "app/typo";
+    @import "app/colors";
+
+    /*h1, .h1, h2, .h2, h3, .h3, h4, .h4{
+        margin-bottom: 1rem; 
+    }
+
+    h5, .h5, h6, .h6{
+        margin-bottom: .5rem;
+    }
+
+    p,
+    p.wp-block{
+        line-height: $line-height-base;
+        font-size: $h5-font-size;
+    }
+
+    ul, ol{
+        line-height: $line-height-base;
+        font-size: $h5-font-size;
+        margin-bottom: $paragraph-margin-bottom;
+    }
+
+    .editor-post-title__block .editor-post-title__input {
+        color: $headings-color;
+        font-family: $font-family-base;
+    }*/
+
+    &,
+    * {
+        font-family: $font-family-base;
+    }
+
+    font-size: $font-size-base;
+	color: $body-color;
+	line-height: $line-height-base;
+    
+}

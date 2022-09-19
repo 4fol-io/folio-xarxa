@@ -1,0 +1,109 @@
+
+.dropdown-toggle:after {
+  border: 0;
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-left: 0.65rem;
+  margin-top: .15rem;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: $icon-svg-chevron-dark;
+}
+
+
+.dropdown-menu{
+  border: 0;
+  box-shadow: $dropdown-box-shadow;
+
+  .menu-item{
+    &.active{
+      .dropdown-item{
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}
+
+
+/* --------------------------------------------------------- */
+/*
+ * Dropdownhover v1.0.0 (http://bs-dropdownhover.kybarg.com)
+ */
+/* --------------------------------------------------------- */
+
+.dropdown > a {
+  transition: all 0.2s ease-in;
+}
+.dropdown-menu .dropdown-menu {
+	left: 100%;
+	margin: 0;
+	right: auto;
+}
+.dropdown-menu-right .dropdown-menu,
+.navbar-right .dropdown-menu .dropdown-menu,
+.pull-right .dropdown-menu .dropdown-menu {
+	left: auto;
+	right: 100%;
+}
+
+.navbar-fixed-bottom .dropdown-menu .dropdown-menu,
+.dropdownhover-top .dropdown-menu {
+	bottom: -1px;
+	top: auto;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	margin-bottom: 0;
+}
+
+.dropdown-menu.animated {
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dropdown-menu.animated:before {
+  content: " ";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.dropdown-menu.animated.fadeIn {
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+}
+
+.dropdownhover-bottom {
+  transform: translate3d(0, 0, 0);
+  transform-origin: 50% 0;
+  border-radius: 0 0 10px 10px;
+  margin-top: -1px;
+}
+
+.dropdownhover-left {
+  transform: translate3d(0, 0, 0);
+  transform-origin: 100% 50%;
+}
+
+.dropdownhover-right {
+  transform: translate3d(0, 0, 0);
+  transform-origin: 0 50%;
+}
+
+.dropdownhover-top {
+  transform: translate3d(0, 0, 0);
+  transform-origin: 50% 100%;
+}
+
+
+.dropdown-menu.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  transform: translate3d(-50%, 0,0);
+}

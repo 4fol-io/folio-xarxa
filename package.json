@@ -1,0 +1,31 @@
+{
+  "name": "folio-xarxa",
+  "version": "1.0.0",
+  "description": "Theme fo Folio based on Bootstrap & Underscores",
+  "main": "src/js/app.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raúl Solana <rsolana@tresipunt.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "sass": "^1.54.9",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "masonry-layout": "^4.2.2",
+    "popper.js": "^1.16.1"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  }
+}
