@@ -56,6 +56,7 @@ $grays: map-merge(
 );
 
 $blue:        #00233D;
+$blue-light:  #455a6e;
 $purple:      #B8B8D1;
 $red:         #FD4C5C;
 $red-light:   #FF6B6C;
@@ -344,6 +345,7 @@ $font-family-alt:      "Roboto", Roboto, "Helvetica Neue", Arial, "Noto Sans", "
 $font-size-base:              1.125rem;
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                .875rem;
+$font-size-tiny:              .8rem;
 $font-size-normal:            1rem;
 
 $font-weight-lighter:         lighter !default;

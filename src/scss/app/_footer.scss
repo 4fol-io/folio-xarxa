@@ -14,7 +14,7 @@
         &.off{
             display: none;
         }
-        background-color: $secondary;
+        background-color: $blue-light;
         background-repeat: no-repeat;
         background-size: 16px 16px;
         background-image: $icon-svg-chevron-white;
@@ -22,7 +22,7 @@
         transition: all .25s ease;
         transform: rotate(180deg);
         &:hover, &:focus{
-            background-color: $primary;
+            background-color: $blue;
         }
     }
 }

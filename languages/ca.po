@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: folio-xarxa 1.0.0\n"
-"POT-Creation-Date: 2022-09-19 13:32+0200\n"
-"PO-Revision-Date: 2022-09-19 16:51+0200\n"
+"POT-Creation-Date: 2022-11-21 10:36+0100\n"
+"PO-Revision-Date: 2022-11-21 10:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -63,7 +63,7 @@ msgstr[1] "%1$s comentaris a &ldquo;%2$s&rdquo;"
 msgid "Comments are closed."
 msgstr "Els comentaris són tancats."
 
-#: footer.php:35
+#: footer.php:34
 msgid "Go to top"
 msgstr "Anar a dalt"
 
@@ -130,6 +130,10 @@ msgstr "Llista"
 msgid "Grid"
 msgstr "Grilla"
 
+#: inc/customizer.php:54
+msgid "Masonry"
+msgstr ""
+
 #: inc/customizer.php:59
 msgid "Full content"
 msgstr "Contingut complet"
@@ -146,6 +150,10 @@ msgstr "Configuració Folio"
 msgid "General Settings"
 msgstr "Configuració general"
 
+#: inc/customizer.php:101
+msgid "Content Align"
+msgstr "Alineació del contingut"
+
 #: inc/customizer.php:113
 msgid "Archive Layout"
 msgstr "Disseny de l'arxiu"
@@ -158,51 +166,59 @@ msgstr "Arxiu contingut"
 msgid "Display Featured Image in Archive"
 msgstr "Mostra la imatge destacada a l′arxiu"
 
-#: inc/customizer.php:149
+#: inc/customizer.php:151
+msgid "Display Categories"
+msgstr "Mostrar les categories"
+
+#: inc/customizer.php:164
+msgid "Display Tags"
+msgstr "Mostra les etiquetes"
+
+#: inc/customizer.php:174
 msgid "Heading Settings"
 msgstr "Configuració de la capçalera"
 
-#: inc/customizer.php:161
+#: inc/customizer.php:186
 msgid "Display Custom WPML Lang Menu"
 msgstr "Mostrar menú de idioma WPML personalizado"
 
-#: inc/customizer.php:175
+#: inc/customizer.php:200
 msgid "Display Header CTA"
 msgstr "Mostra botó d′acció de la capçalera"
 
-#: inc/customizer.php:193
+#: inc/customizer.php:218
 msgid "CTA Button Type"
 msgstr "Tipus de botó d’acció"
 
-#: inc/customizer.php:207
+#: inc/customizer.php:232
 msgid "Button outline style"
 msgstr "Estil de contorn de botons"
 
-#: inc/customizer.php:221
+#: inc/customizer.php:246
 msgid "CTA Title"
 msgstr "Titol de botó d'acció"
 
-#: inc/customizer.php:232
+#: inc/customizer.php:257
 msgid "CTA Link"
 msgstr "Enllaç de botó d'acció"
 
-#: inc/customizer.php:246
+#: inc/customizer.php:271
 msgid "Opens in new window"
 msgstr "S′obre en una finestra nova"
 
-#: inc/customizer.php:256
+#: inc/customizer.php:281
 msgid "Footer Settings"
 msgstr "Configuració peu de pàgina"
 
-#: inc/customizer.php:269
+#: inc/customizer.php:294
 msgid "Display Go To Top"
 msgstr "Mostra Anar a dalt"
 
-#: inc/customizer.php:283
+#: inc/customizer.php:308
 msgid "Footer Text"
 msgstr "Text del peu de pàgina"
 
-#: inc/customizer.php:292
+#: inc/customizer.php:317
 msgid "Footer Text Align"
 msgstr "Alineació de text del peu de pàgina"
 
@@ -362,67 +378,64 @@ msgstr "per %s"
 msgid "Tags"
 msgstr "Etiquetes"
 
-#: inc/templates.php:172
+#: inc/templates.php:173
 msgid "Categories"
 msgstr "Categories"
 
-#: inc/templates.php:253
+#: inc/templates.php:258
 msgid "Please enter the message"
 msgstr "Si us plau, introdueix el contingut"
 
-#: inc/templates.php:257
+#: inc/templates.php:262
 msgid "Your comment"
 msgstr "El teu comentari"
 
-#: inc/templates.php:258
+#: inc/templates.php:263
 msgid "Your message"
 msgstr "El teu missatge"
 
-#: inc/templates.php:261
+#: inc/templates.php:266
 msgid "Send comment"
 msgstr "Enviar comentari"
 
-#: inc/templates.php:262
+#: inc/templates.php:267
 msgid "Leave a comment"
 msgstr "Deixa un comentari"
 
-#: inc/templates.php:263
+#: inc/templates.php:268
 msgid "Cancel Reply"
 msgstr "Cancel·la la resposta"
 
-#: inc/templates.php:273
+#: inc/templates.php:278
 #, php-format
 msgid "Logged in as %s. Edit your profile."
 msgstr "Connectat com %s. Edita perfil."
 
-#: inc/templates.php:276
+#: inc/templates.php:281
 msgid "Log out?"
 msgstr "Tancar sessió?"
 
-#: inc/templates.php:293 inc/utils.php:417
+#: inc/templates.php:300
 msgid "Please enter the name"
 msgstr "Si us plau, introdueix el nom"
 
-#: inc/templates.php:294 inc/utils.php:418
+#: inc/templates.php:301
 msgid "Please enter a valid email"
 msgstr "Si us plau, introdueix una adreça electrònica vàlida"
 
-#: inc/templates.php:297 inc/templates.php:298 inc/utils.php:421
-#: inc/utils.php:422
+#: inc/templates.php:304 inc/templates.php:305
 msgid "Name"
 msgstr "Nom"
 
-#: inc/templates.php:302 inc/templates.php:303 inc/utils.php:426
-#: inc/utils.php:427
+#: inc/templates.php:309 inc/templates.php:310
 msgid "Your email"
 msgstr "El teu email"
 
-#: inc/templates.php:307 inc/templates.php:308 inc/utils.php:431
-#: inc/utils.php:432
+#: inc/templates.php:314 inc/templates.php:315
 msgid "Website"
 msgstr "Lloc web"
 
-#: inc/templates.php:316 inc/utils.php:441
+#: inc/templates.php:323
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
@@ -454,12 +467,12 @@ msgstr "Y"
 msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
 msgstr "<li class=\"breadcrumb-item\">Cerca: %s</li>"
 
-#: inc/utils.php:281
+#: inc/utils.php:297
 msgctxt "Added to posts and pages that are missing titles"
 msgid "Untitled"
 msgstr "Sense títol"
 
-#: inc/utils.php:366
+#: inc/utils.php:382
 msgid "Cancel"
 msgstr "Cancel·la"
 
@@ -495,7 +508,7 @@ msgid ""
 msgstr ""
 "Sembla que no trobem el que busques. Potser la funció de cerca pot ajudar."
 
-#: template-parts/content-single.php:38 template-parts/content.php:45
+#: template-parts/content-single.php:41 template-parts/content.php:45
 #, php-format
 msgid "Continue reading<span class=\"sr-only\"> \"%s\"</span>"
 msgstr "Seguir llegint<span class=\"sr-only\"> \"%s\"</span>"

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: folio-xarxa 1.0.0\n"
-"POT-Creation-Date: 2022-09-19 13:33+0200\n"
-"PO-Revision-Date: 2022-09-19 13:41+0200\n"
+"POT-Creation-Date: 2022-11-21 10:35+0100\n"
+"PO-Revision-Date: 2022-11-21 10:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -63,7 +63,7 @@ msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
-#: footer.php:35
+#: footer.php:34
 msgid "Go to top"
 msgstr "Ir arriba"
 
@@ -130,6 +130,10 @@ msgstr "Lista"
 msgid "Grid"
 msgstr "Grilla"
 
+#: inc/customizer.php:54
+msgid "Masonry"
+msgstr ""
+
 #: inc/customizer.php:59
 msgid "Full content"
 msgstr "Contenido completo"
@@ -146,6 +150,10 @@ msgstr "Configuración Folio"
 msgid "General Settings"
 msgstr "Configuración general"
 
+#: inc/customizer.php:101
+msgid "Content Align"
+msgstr "Alineación del contenido"
+
 #: inc/customizer.php:113
 msgid "Archive Layout"
 msgstr "Diseño del archivo"
@@ -158,51 +166,59 @@ msgstr "Contenido del archivo"
 msgid "Display Featured Image in Archive"
 msgstr "Mostrar imagen destacada en archivo"
 
-#: inc/customizer.php:149
+#: inc/customizer.php:151
+msgid "Display Categories"
+msgstr "Mostrar categorías"
+
+#: inc/customizer.php:164
+msgid "Display Tags"
+msgstr "Mostrar etiquetas"
+
+#: inc/customizer.php:174
 msgid "Heading Settings"
 msgstr "Configuración de cabecera"
 
-#: inc/customizer.php:161
+#: inc/customizer.php:186
 msgid "Display Custom WPML Lang Menu"
 msgstr "Mostrar menú personalizado de idioma WPML"
 
-#: inc/customizer.php:175
+#: inc/customizer.php:200
 msgid "Display Header CTA"
 msgstr "Mostrar botón de acción en la cabecera"
 
-#: inc/customizer.php:193
+#: inc/customizer.php:218
 msgid "CTA Button Type"
 msgstr "Tipo de botón de acción"
 
-#: inc/customizer.php:207
+#: inc/customizer.php:232
 msgid "Button outline style"
 msgstr "Estilo de contorno de los botones"
 
-#: inc/customizer.php:221
+#: inc/customizer.php:246
 msgid "CTA Title"
 msgstr "Título del botón de acción"
 
-#: inc/customizer.php:232
+#: inc/customizer.php:257
 msgid "CTA Link"
 msgstr "Enlace del botón de acción"
 
-#: inc/customizer.php:246
+#: inc/customizer.php:271
 msgid "Opens in new window"
 msgstr "Se abre en nueva ventana"
 
-#: inc/customizer.php:256
+#: inc/customizer.php:281
 msgid "Footer Settings"
 msgstr "Configuración de pié de página"
 
-#: inc/customizer.php:269
+#: inc/customizer.php:294
 msgid "Display Go To Top"
 msgstr "Mostar ir arriba"
 
-#: inc/customizer.php:283
+#: inc/customizer.php:308
 msgid "Footer Text"
 msgstr "Texto de pie de página"
 
-#: inc/customizer.php:292
+#: inc/customizer.php:317
 msgid "Footer Text Align"
 msgstr "Alineación de texto de pie de página"
 
@@ -363,67 +379,64 @@ msgstr "por %s"
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: inc/templates.php:172
+#: inc/templates.php:173
 msgid "Categories"
 msgstr "Categorías"
 
-#: inc/templates.php:253
+#: inc/templates.php:258
 msgid "Please enter the message"
 msgstr "Por favor, introduce el mensaje"
 
-#: inc/templates.php:257
+#: inc/templates.php:262
 msgid "Your comment"
 msgstr "Tu comentario"
 
-#: inc/templates.php:258
+#: inc/templates.php:263
 msgid "Your message"
 msgstr "Tu mensaje"
 
-#: inc/templates.php:261
+#: inc/templates.php:266
 msgid "Send comment"
 msgstr "Enviar comentario"
 
-#: inc/templates.php:262
+#: inc/templates.php:267
 msgid "Leave a comment"
 msgstr "Deja un comentario"
 
-#: inc/templates.php:263
+#: inc/templates.php:268
 msgid "Cancel Reply"
 msgstr "Cancelar respuesta"
 
-#: inc/templates.php:273
+#: inc/templates.php:278
 #, php-format
 msgid "Logged in as %s. Edit your profile."
 msgstr "Conectado como %s. Edita tu perfil."
 
-#: inc/templates.php:276
+#: inc/templates.php:281
 msgid "Log out?"
 msgstr "¿Cerrar sesión?"
 
-#: inc/templates.php:293 inc/utils.php:417
+#: inc/templates.php:300
 msgid "Please enter the name"
 msgstr "Por favor, introduce el nombre"
 
-#: inc/templates.php:294 inc/utils.php:418
+#: inc/templates.php:301
 msgid "Please enter a valid email"
 msgstr "Por favor, introduce un correo electrónico válido"
 
-#: inc/templates.php:297 inc/templates.php:298 inc/utils.php:421
-#: inc/utils.php:422
+#: inc/templates.php:304 inc/templates.php:305
 msgid "Name"
 msgstr "Nombre"
 
-#: inc/templates.php:302 inc/templates.php:303 inc/utils.php:426
-#: inc/utils.php:427
+#: inc/templates.php:309 inc/templates.php:310
 msgid "Your email"
 msgstr "Tu email"
 
-#: inc/templates.php:307 inc/templates.php:308 inc/utils.php:431
-#: inc/utils.php:432
+#: inc/templates.php:314 inc/templates.php:315
 msgid "Website"
 msgstr "Sitio web"
 
-#: inc/templates.php:316 inc/utils.php:441
+#: inc/templates.php:323
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
@@ -455,12 +468,12 @@ msgstr "Y"
 msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
 msgstr "<li class=\"breadcrumb-item\">Buscar: %s</li>"
 
-#: inc/utils.php:281
+#: inc/utils.php:297
 msgctxt "Added to posts and pages that are missing titles"
 msgid "Untitled"
 msgstr "Sin título"
 
-#: inc/utils.php:366
+#: inc/utils.php:382
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -497,7 +510,7 @@ msgstr ""
 "Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda "
 "pueda ayudar."
 
-#: template-parts/content-single.php:38 template-parts/content.php:45
+#: template-parts/content-single.php:41 template-parts/content.php:45
 #, php-format
 msgid "Continue reading<span class=\"sr-only\"> \"%s\"</span>"
 msgstr "Seguir leyendo<span class=\"sr-only\"> \"%s\"</span>"

@@ -13,6 +13,9 @@ use FolioXarxa\Templates;
 <article id="post-<?php the_ID(); ?>" <?php post_class('mb-4'); ?>>
 
 	<header class="entry-header">
+
+		<?php Templates\cats_list(); ?>
+
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>

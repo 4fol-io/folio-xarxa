@@ -165,13 +165,15 @@ function tags_list() {
  * Displays post cats list
  */
 function cats_list() {
-	$categories_list = get_the_category_list();
-	if ($categories_list) {
-		printf(
-			'<div class="entry-cats"><span class="sr-only">%1$s </span>%2$s</div>',
-			__('Categories', 'folio-xarxa'),
-			$categories_list
-		);
+	if (get_theme_mod('folio_xarxa_cats_show', false)){
+		$categories_list = get_the_category_list(', ');
+		if ($categories_list) {
+			printf(
+				'<div class="entry-cats"><span class="sr-only">%1$s </span>%2$s</div>',
+				__('Categories', 'folio-xarxa'),
+				$categories_list
+			);
+		}
 	}
 }
 
@@ -180,7 +182,10 @@ function cats_list() {
  * Prints HTML with meta information for entry footer (tags list, comments link, edit link)
  */
 function entry_footer() {
-	tags_list();
+
+	if (get_theme_mod('folio_xarxa_tags_show', true)){
+		tags_list();
+	}
 	edit_link();
 }
 

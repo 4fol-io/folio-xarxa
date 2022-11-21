@@ -141,6 +141,31 @@ function customize_register( $wp_customize ) {
 		'type'        => 'toggle',
 	) ) );
 
+	$wp_customize->add_setting( 'folio_xarxa_cats_show', array (
+        'default' 		=> false,
+		//'transport'         => 'postMessage',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_checkbox',
+    ) );
+
+	$wp_customize->add_control( new Toggle_Custom_Control( $wp_customize, 'folio_xarxa_cats_show', array (
+		'label'       => esc_html__( 'Display Categories', 'folio-xarxa' ),
+		'section'     => 'folio-xarxa',
+		'type'        => 'toggle',
+	) ) );
+
+
+	$wp_customize->add_setting( 'folio_xarxa_tags_show', array (
+        'default' 		=> true,
+		//'transport'         => 'postMessage',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_checkbox',
+    ) );
+
+	$wp_customize->add_control( new Toggle_Custom_Control( $wp_customize, 'folio_xarxa_tags_show', array (
+		'label'       => esc_html__( 'Display Tags', 'folio-xarxa' ),
+		'section'     => 'folio-xarxa',
+		'type'        => 'toggle',
+	) ) );
+
 
 	$wp_customize->add_setting('folio_xarxa_secc_heading', array()); // dummy
 

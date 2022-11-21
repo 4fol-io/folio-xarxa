@@ -15,6 +15,9 @@ use FolioXarxa\Templates;
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header">
+
+		<?php Templates\cats_list(); ?>
+		
 		<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
 
 		<?php if ('post' === get_post_type()) :

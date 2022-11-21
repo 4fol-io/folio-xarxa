@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: folio-xarxa 1.0.0\n"
-"POT-Creation-Date: 2022-09-19 13:33+0200\n"
+"POT-Creation-Date: 2022-11-21 10:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Raúl Solana <rsolana@tresipunt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:35
+#: footer.php:34
 msgid "Go to top"
 msgstr ""
 
@@ -126,6 +126,10 @@ msgstr ""
 msgid "Grid"
 msgstr ""
 
+#: inc/customizer.php:54
+msgid "Masonry"
+msgstr ""
+
 #: inc/customizer.php:59
 msgid "Full content"
 msgstr ""
@@ -142,6 +146,10 @@ msgstr ""
 msgid "General Settings"
 msgstr ""
 
+#: inc/customizer.php:101
+msgid "Content Align"
+msgstr ""
+
 #: inc/customizer.php:113
 msgid "Archive Layout"
 msgstr ""
@@ -154,51 +162,59 @@ msgstr ""
 msgid "Display Featured Image in Archive"
 msgstr ""
 
-#: inc/customizer.php:149
+#: inc/customizer.php:151
+msgid "Display Categories"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Display Tags"
+msgstr ""
+
+#: inc/customizer.php:174
 msgid "Heading Settings"
 msgstr ""
 
-#: inc/customizer.php:161
+#: inc/customizer.php:186
 msgid "Display Custom WPML Lang Menu"
 msgstr ""
 
-#: inc/customizer.php:175
+#: inc/customizer.php:200
 msgid "Display Header CTA"
 msgstr ""
 
-#: inc/customizer.php:193
+#: inc/customizer.php:218
 msgid "CTA Button Type"
 msgstr ""
 
-#: inc/customizer.php:207
+#: inc/customizer.php:232
 msgid "Button outline style"
 msgstr ""
 
-#: inc/customizer.php:221
+#: inc/customizer.php:246
 msgid "CTA Title"
 msgstr ""
 
-#: inc/customizer.php:232
+#: inc/customizer.php:257
 msgid "CTA Link"
 msgstr ""
 
-#: inc/customizer.php:246
+#: inc/customizer.php:271
 msgid "Opens in new window"
 msgstr ""
 
-#: inc/customizer.php:256
+#: inc/customizer.php:281
 msgid "Footer Settings"
 msgstr ""
 
-#: inc/customizer.php:269
+#: inc/customizer.php:294
 msgid "Display Go To Top"
 msgstr ""
 
-#: inc/customizer.php:283
+#: inc/customizer.php:308
 msgid "Footer Text"
 msgstr ""
 
-#: inc/customizer.php:292
+#: inc/customizer.php:317
 msgid "Footer Text Align"
 msgstr ""
 
@@ -358,64 +374,64 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: inc/templates.php:172
+#: inc/templates.php:173
 msgid "Categories"
 msgstr ""
 
-#: inc/templates.php:253
+#: inc/templates.php:258
 msgid "Please enter the message"
 msgstr ""
 
-#: inc/templates.php:257
+#: inc/templates.php:262
 msgid "Your comment"
 msgstr ""
 
-#: inc/templates.php:258
+#: inc/templates.php:263
 msgid "Your message"
 msgstr ""
 
-#: inc/templates.php:261
+#: inc/templates.php:266
 msgid "Send comment"
 msgstr ""
 
-#: inc/templates.php:262
+#: inc/templates.php:267
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/templates.php:263
+#: inc/templates.php:268
 msgid "Cancel Reply"
 msgstr ""
 
-#: inc/templates.php:273
+#: inc/templates.php:278
 #, php-format
 msgid "Logged in as %s. Edit your profile."
 msgstr ""
 
-#: inc/templates.php:276
+#: inc/templates.php:281
 msgid "Log out?"
 msgstr ""
 
-#: inc/templates.php:293 inc/utils.php:417
+#: inc/templates.php:300
 msgid "Please enter the name"
 msgstr ""
 
-#: inc/templates.php:294 inc/utils.php:418
+#: inc/templates.php:301
 msgid "Please enter a valid email"
 msgstr ""
 
-#: inc/templates.php:297 inc/templates.php:298 inc/utils.php:421 inc/utils.php:422
+#: inc/templates.php:304 inc/templates.php:305
 msgid "Name"
 msgstr ""
 
-#: inc/templates.php:302 inc/templates.php:303 inc/utils.php:426 inc/utils.php:427
+#: inc/templates.php:309 inc/templates.php:310
 msgid "Your email"
 msgstr ""
 
-#: inc/templates.php:307 inc/templates.php:308 inc/utils.php:431 inc/utils.php:432
+#: inc/templates.php:314 inc/templates.php:315
 msgid "Website"
 msgstr ""
 
-#: inc/templates.php:316 inc/utils.php:441
+#: inc/templates.php:323
 msgid "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 
@@ -443,12 +459,12 @@ msgstr ""
 msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
 msgstr ""
 
-#: inc/utils.php:281
+#: inc/utils.php:297
 msgctxt "Added to posts and pages that are missing titles"
 msgid "Untitled"
 msgstr ""
 
-#: inc/utils.php:366
+#: inc/utils.php:382
 msgid "Cancel"
 msgstr ""
 
@@ -476,7 +492,7 @@ msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: template-parts/content-single.php:38 template-parts/content.php:45
+#: template-parts/content-single.php:41 template-parts/content.php:45
 #, php-format
 msgid "Continue reading<span class=\"sr-only\"> \"%s\"</span>"
 msgstr ""

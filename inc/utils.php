@@ -240,20 +240,6 @@ function language_selector() {
 	<?php
 	endif;
   ?>
-  <?php /*<ul class="navbar-nav navbar-lang">
-			<li class="nav-item nav-lang-item">
-				<a href="#" title="" class="nav-link active">
-				  <span class="d-none d-lg-inline-block">ES</span>
-				  <span class="d-inline-block d-lg-none">Español></span>
-				</a>
-			</li>
-      <li class="nav-item nav-lang-item">
-				<a href="#" title="" class="nav-link">
-				  <span class="d-none d-lg-inline-block">CA</span>
-				  <span class="d-inline-block d-lg-none">Catalá</span>
-				</a>
-			</li>
-	</ul>*/ ?>
   <?php
 }
 
