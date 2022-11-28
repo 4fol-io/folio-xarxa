@@ -154,6 +154,10 @@ add_filter('the_excerpt', __NAMESPACE__ . '\\remove_the_excerpt_shortcodes');
  */
 function the_breadcrumb() {
 
+  if ( ! get_theme_mod('folio_xarxa_breadcrumb_show', false)){
+    return false;
+  }
+
   echo '<ol class="breadcrumb">';
 
   if (!is_front_page()) {
