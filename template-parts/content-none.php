@@ -10,11 +10,11 @@
 ?>
 
 <section class="no-results not-found">
-	<header class="page-header">
+	<header class="page-header entry-header">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'folio-xarxa' ); ?></h1>
 	</header><!-- .page-header -->
 
-	<div class="page-content">
+	<div class="page-content entry-content">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 

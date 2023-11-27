@@ -28,6 +28,7 @@ import Masonry from 'masonry-layout';
  */
 import { debounce, isMobile, goTo } from './modules/utils.js';
 import './modules/bootstrap-dropdown-hover.js';
+import './modules/anchor-scrolls.js';
 
 
 

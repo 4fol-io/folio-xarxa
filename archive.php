@@ -9,13 +9,28 @@
 
 use FolioXarxa\Pagination;
 
+get_header();
 
 $layout = get_theme_mod('folio_xarxa_archive_layout', 'list');
+if (!$layout) $layout = 'list';
 
-get_header();
+$archive_width = get_theme_mod('folio_xarxa_archive_width', 'wide');
+
+$archive_container = '';
+if ($layout !== 'list'){
+	$archive_container = 'container';
+	switch ($archive_width){
+		case 'wide';
+			$archive_container .= ' container-wide';
+			break;
+		case 'full':
+			$archive_container = 'container-fluid';
+			break;
+	}
+}
 ?>
 
-	<main id="primary" class="site-main layout-<?php echo $layout; ?>">
+	<main id="primary" class="site-main layout-<?php echo $layout; ?> <?php echo $archive_container; ?>">
 
 		<?php if ( have_posts() ) : ?>
 

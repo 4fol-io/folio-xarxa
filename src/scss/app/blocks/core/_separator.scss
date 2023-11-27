@@ -1,12 +1,11 @@
 // Separator block.
 
 .wp-block-separator {
-    max-width: 10em;
     margin-left: auto;
     margin-right: auto;
 
-    &.is-style-wide {
-        max-width: none;
+    &.is-style-default {
+        max-width: 10em;
     }
 
     &.is-style-dots::before {
@@ -21,6 +20,10 @@
     &.has-background {
         padding: 0;
         border-color: transparent;
+    }
+
+    &:not(.is-style-dots){
+        @extend hr;
     }
 
 }

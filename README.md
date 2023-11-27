@@ -57,3 +57,25 @@ $ npm run production
 
 #### v1.0.0
 - Initial release
+
+
+#### v1.0.1
+- Headings style
+- Added "Display UOC Tools" customizer setting
+
+#### 1.0.2
+- Added pnpm compatibility
+- Align menu right if no CTA and no Lang menu
+
+#### 1.0.3
+- Fix: Scroll to anchors
+
+
+#### 1.0.4
+- Added theme.json
+- Refactor theme containers
+- Added home block patterns
+
+
+#### 1.0.5
+- Update patterns and translated

@@ -38,7 +38,7 @@ use FolioXarxa\Templates;
 		the_content(sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__('Continue reading<span class="sr-only"> "%s"</span>', 'fland'),
+				__('Continue reading<span class="sr-only"> "%s"</span>', 'folio-xarxa'),
 				array(
 					'span' => array(
 						'class' => array(),

@@ -9,7 +9,7 @@
 
 .entry-cats{
 	font-size: $font-size-tiny;
-	margin-bottom: .5rem;
+	margin-bottom: .25rem;
 	a{
 		margin-bottom: 0.25rem;
 		display: inline-block;
@@ -18,47 +18,6 @@
 			color: $link-hover-color;
 		}
 	}
-	/*ul{
-		list-style-type: none;
-		display: block;
-		margin: 0;
-		padding: 0;
-		li{
-			display: inline-block;
-			margin: 0 0 .25rem 0;
-			a{
-				color: $blue-light;
-				&:hover, &:focus{
-					text-decoration: none;
-					color: $primary;
-				}
-			}
-			&:before{
-				content: '\2022';
-				color: rgba(0, 11, 51, 0.5);
-				padding: 0 .5rem;
-				font-size: $font-size-sm;
-				vertical-align: center;
-			}
-			&:first-child:before{
-				content: '';
-				display: none;
-			}
-		}
-	}*/
-	/*a {
-		margin: 0 0 .5rem;
-		background: rgba($primary,.1);
-		color: $blue-light;
-		display: inline-block;
-		padding: .5rem .5rem;
-		font-weight: $font-weight-normal;
-		&:hover, &:focus{
-			text-decoration: none;
-			background-color: $blue-light;
-			color: $white;
-		}
-	}*/
 }
 
 .entry-tags {
@@ -147,6 +106,13 @@
 	}
 }
 
+
+
+.page, .single{
+    .entry-header{
+        margin-bottom: 1.5rem;
+    }
+}
 
 
 .layout-grid,

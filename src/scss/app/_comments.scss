@@ -210,3 +210,17 @@
 	@extend .btn;
 	@extend .btn-primary;
 }
+
+.quicktags-toolbar{
+	margin-left: -.1rem;
+	margin-right: -.1rem;
+	margin-bottom: .1rem;
+	.ed_button{
+		display: inline-block!important;
+		width: auto!important;
+		padding: 0.25rem 0.5rem !important;
+		height: auto!important;
+		font-size: $font-size-sm!important;
+		margin: .1rem;
+	}
+}

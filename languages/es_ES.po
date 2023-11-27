@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: folio-xarxa 1.0.0\n"
-"POT-Creation-Date: 2022-11-21 10:35+0100\n"
-"PO-Revision-Date: 2022-11-21 10:36+0100\n"
+"POT-Creation-Date: 2023-05-23 22:45+0200\n"
+"PO-Revision-Date: 2023-05-23 22:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Domain: folio-xarxa\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;"
@@ -63,30 +63,34 @@ msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
-#: footer.php:34
+#: footer.php:32
 msgid "Go to top"
 msgstr "Ir arriba"
 
-#: header.php:58
+#: header.php:64
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: header.php:140
+#: header.php:153
 msgid "Menu"
 msgstr "Menú"
+
+#: hide-heading.php:10
+msgid "Hide Page Heading"
+msgstr "Ocultar encabezado de página"
 
 #: inc/customizer.php:33 inc/customizer.php:43 inc/customizer.php:51
 #: inc/customizer.php:58
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccionar &mdash;"
 
-#: inc/customizer.php:34 inc/setup.php:186 inc/setup.php:191 inc/setup.php:196
-#: inc/setup.php:201 inc/setup.php:206
+#: inc/customizer.php:34 inc/setup.php:196 inc/setup.php:201 inc/setup.php:206
+#: inc/setup.php:211 inc/setup.php:216
 msgid "Primary"
 msgstr "Principal"
 
-#: inc/customizer.php:35 inc/setup.php:211 inc/setup.php:216 inc/setup.php:221
-#: inc/setup.php:226 inc/setup.php:231
+#: inc/customizer.php:35 inc/setup.php:221 inc/setup.php:226 inc/setup.php:231
+#: inc/setup.php:236 inc/setup.php:241
 msgid "Secondary"
 msgstr "Secundario"
 
@@ -94,15 +98,15 @@ msgstr "Secundario"
 msgid "Gray"
 msgstr "Gris"
 
-#: inc/customizer.php:37 inc/setup.php:246
+#: inc/customizer.php:37 inc/setup.php:256
 msgid "Green"
 msgstr "Verde"
 
-#: inc/customizer.php:38 inc/setup.php:256
+#: inc/customizer.php:38 inc/setup.php:266
 msgid "Orange"
 msgstr "Naranja"
 
-#: inc/customizer.php:39 inc/setup.php:236
+#: inc/customizer.php:39 inc/setup.php:246
 msgid "Red"
 msgstr "Rojo"
 
@@ -132,7 +136,7 @@ msgstr "Grilla"
 
 #: inc/customizer.php:54
 msgid "Masonry"
-msgstr ""
+msgstr "Masonry"
 
 #: inc/customizer.php:59
 msgid "Full content"
@@ -174,51 +178,63 @@ msgstr "Mostrar categorías"
 msgid "Display Tags"
 msgstr "Mostrar etiquetas"
 
-#: inc/customizer.php:174
+#: inc/customizer.php:177
+msgid "Display Breadcrumbs"
+msgstr "Mostrar migas de pan"
+
+#: inc/customizer.php:190
+msgid "Display UOC Tools"
+msgstr "Mostrar herramientas UOC"
+
+#: inc/customizer.php:202
+msgid "Display UOC Footer"
+msgstr "Mostrar pie de página UOC"
+
+#: inc/customizer.php:212
 msgid "Heading Settings"
 msgstr "Configuración de cabecera"
 
-#: inc/customizer.php:186
+#: inc/customizer.php:224
 msgid "Display Custom WPML Lang Menu"
 msgstr "Mostrar menú personalizado de idioma WPML"
 
-#: inc/customizer.php:200
+#: inc/customizer.php:238
 msgid "Display Header CTA"
 msgstr "Mostrar botón de acción en la cabecera"
 
-#: inc/customizer.php:218
+#: inc/customizer.php:256
 msgid "CTA Button Type"
 msgstr "Tipo de botón de acción"
 
-#: inc/customizer.php:232
+#: inc/customizer.php:270
 msgid "Button outline style"
 msgstr "Estilo de contorno de los botones"
 
-#: inc/customizer.php:246
+#: inc/customizer.php:284
 msgid "CTA Title"
 msgstr "Título del botón de acción"
 
-#: inc/customizer.php:257
+#: inc/customizer.php:295
 msgid "CTA Link"
 msgstr "Enlace del botón de acción"
 
-#: inc/customizer.php:271
+#: inc/customizer.php:309
 msgid "Opens in new window"
 msgstr "Se abre en nueva ventana"
 
-#: inc/customizer.php:281
+#: inc/customizer.php:319
 msgid "Footer Settings"
 msgstr "Configuración de pié de página"
 
-#: inc/customizer.php:294
+#: inc/customizer.php:332
 msgid "Display Go To Top"
 msgstr "Mostar ir arriba"
 
-#: inc/customizer.php:308
+#: inc/customizer.php:346
 msgid "Footer Text"
 msgstr "Texto de pie de página"
 
-#: inc/customizer.php:317
+#: inc/customizer.php:355
 msgid "Footer Text Align"
 msgstr "Alineación de texto de pie de página"
 
@@ -266,6 +282,341 @@ msgstr "Entradas antiguas"
 msgid "Newer posts"
 msgstr "Entradas recientes"
 
+#: inc/patterns.php:29
+msgid "Welcome to Folio!"
+msgstr "¡Bienvenido/a a Folio!"
+
+#: inc/patterns.php:30
+msgctxt "Block pattern description"
+msgid "Folio welcome section with big title, description and illustration"
+msgstr ""
+"Sección de bienvenida a Folio con título grande, descripción e ilustración"
+
+#: inc/patterns.php:32
+msgid "Hi!"
+msgstr "¡Hola!"
+
+#: inc/patterns.php:32
+msgid ""
+"Folio can be your personal space to connect with colleagues, society and the "
+"working market."
+msgstr ""
+"Folio puede ser tu espacio personal para conectar con compañeros y "
+"compañeras, la sociedad y el mundo laboral."
+
+#: inc/patterns.php:40
+msgid "What is Folio?"
+msgstr "¿Qué es Folio?"
+
+#: inc/patterns.php:41
+msgctxt "Block pattern description"
+msgid "Folio what is section with title and three columns of blocks with icons"
+msgstr "Sección qué es folio, con título y tres columnas de bloques con iconos"
+
+#: inc/patterns.php:43
+msgid "Personal space"
+msgstr "Espacio Personal"
+
+#: inc/patterns.php:43
+msgid ""
+"Use it <strong>throughout your studies and beyond</strong>. You can publish "
+"your own content, classroom activities, evaluable work..."
+msgstr ""
+"Úsalo <strong>a lo largo de tus estudios y más allá</strong>. Puedes "
+"publicar contenidos propios, actividades de aulas, trabajos evaluables…"
+
+#: inc/patterns.php:43
+msgid "Community"
+msgstr "Comunidad"
+
+#: inc/patterns.php:43
+msgid ""
+"Publish and share your content and check out other people's posts. A "
+"<strong>socialization</strong> space that will help you<strong> learn among "
+"equals</strong>"
+msgstr ""
+"Publica y comparte tus contenidos y visualiza las publicaciones de otras "
+"personas. Un espacio de <strong>socialización</strong> que te ayudará a "
+"<strong>aprender entre iguales</strong>"
+
+#: inc/patterns.php:43
+msgid "Get professional"
+msgstr "Profesionalízate"
+
+#: inc/patterns.php:43
+msgid ""
+"Folio uses <strong>WordPress</strong>, the most widely used open source "
+"content management system in the world. You will learn to work with the "
+"<strong>portfolio tool preferred by professionals</strong>."
+msgstr ""
+"Folio utiliza <strong>WordPress</strong>, el gestor de contenidos de código "
+"abierto más utilizado en el mundo. Aprenderás a trabajar con la "
+"<strong>herramienta de portafolio preferida por los profesionales</strong>."
+
+#: inc/patterns.php:51 inc/patterns.php:54
+msgid "What can you do with Folio?"
+msgstr "¿Qué puedes hacer con Folio?"
+
+#: inc/patterns.php:52
+msgctxt "Block pattern description"
+msgid ""
+"Folio what can you do section with title, description and two columns for "
+"accordion and illustration"
+msgstr ""
+"Sección qué puedes hacer con Folio, con título, descripción y dos columnas "
+"para acordeón e ilustración"
+
+#: inc/patterns.php:54
+msgid ""
+"By being able to connect WordPress with your virtual campus, it allows you "
+"to:"
+msgstr "Al ser capaz de conectar WordPress con tu campus virtual, te permite:"
+
+#: inc/patterns.php:54
+msgid "Show your work"
+msgstr "Mostrar el trabajo"
+
+#: inc/patterns.php:54
+msgid ""
+"Choose which content is private or public. If you make it public, "
+"<strong>choose who can see it</strong>: teachers, classroom students, "
+"members of your educational community, or everyone."
+msgstr ""
+"Elige qué contenido es privado o público. Si lo haces público, <strong>elige "
+"quién puede verlo</strong>: docentes, estudiantes del aula, miembros de tu "
+"comunidad educativa o todo el mundo."
+
+#: inc/patterns.php:54
+msgid "Label the contents"
+msgstr "Etiquetar los contenidos"
+
+#: inc/patterns.php:54
+msgid ""
+"The <strong>ActiFolios</strong> allow you to link your contents with the "
+"activities of your classrooms. Use it to <strong>link posts from your Folio "
+"to teaching activities</strong>."
+msgstr ""
+"Las <strong>ActiFolios</strong> te permiten vincular tus contenidos con las "
+"actividades de tus aulas. Úsala para <strong>relacionar publicaciones de tu "
+"Folio con las actividades docentes</strong>."
+
+#: inc/patterns.php:54
+msgid "Learn by sharing"
+msgstr "Aprender compartiendo"
+
+#: inc/patterns.php:54
+msgid ""
+"The <strong>Agora</strong> is a space inside the classroom where you can "
+"<strong>interact with the rest of the students</strong>. You will be able to "
+"share, see and comment on everything that has been tagged with a subject's "
+"ActiFolio."
+msgstr ""
+"<strong>Ágora</strong> es un espacio dentro del aula donde podrás "
+"<strong>interactuar con el resto de estudiantes</strong>. Podrás compartir, "
+"ver y comentar todo lo que se haya etiquetado con ActiFolios de la "
+"asignatura."
+
+#: inc/patterns.php:54
+msgid "Submit from your Folio"
+msgstr "Hacer entregas desde tu Folio"
+
+#: inc/patterns.php:54
+msgid ""
+"Submit straight from your workspace. The <strong>teaching staff</strong> "
+"will be able to enter to <strong>evaluate them and leave comments</strong>."
+msgstr ""
+"Realiza las entregas sin salir de tu espacio de trabajo. El <strong>personal "
+"docente</strong> podrá entrar a <strong>evaluarlos y dejar comentarios</"
+"strong>."
+
+#: inc/patterns.php:62
+msgid "Advantages section"
+msgstr "Sección ventajas"
+
+#: inc/patterns.php:63
+msgctxt "Block pattern description"
+msgid ""
+"Section with title, description and two-column blocks with title, text and "
+"illustration"
+msgstr ""
+"Sección con título, descripción y bloques a dos columnas con título, texto e "
+"ilustración"
+
+#: inc/patterns.php:65
+msgid "Advantages"
+msgstr "Ventajas"
+
+#: inc/patterns.php:65
+msgid ""
+"Due to its collaborative and global vocation, the integration of Folio into "
+"the work methodology of educational institutions offers benefits for the "
+"entire community"
+msgstr ""
+"Por su vocación colaborativa y global, la integración de Folio en la "
+"metodología de trabajo de las instituciones educativas ofrece beneficios "
+"para toda la comunidad"
+
+#: inc/patterns.php:65
+msgid "For students"
+msgstr "Para estudiantes"
+
+#: inc/patterns.php:65
+msgid ""
+"Create a <strong>professional portfolio</strong> since the first day of "
+"studies."
+msgstr ""
+"Crear un <strong>portafolio profesional</strong> desde el primer día de los "
+"estudios."
+
+#: inc/patterns.php:65
+msgid ""
+"Personalize an <strong>own space of representation, identification and "
+"empowerment</strong>, with freedom and autonomy."
+msgstr ""
+"Personalizar un <strong>espacio propio de representación, identificación y "
+"empoderamiento</strong>, con libertad y autonomía."
+
+#: inc/patterns.php:65
+msgid ""
+"<strong>Socialize</strong> in the learning process, being part of a "
+"<strong>global network</strong>."
+msgstr ""
+"<strong>Socializar</strong> en el proceso de aprendizaje, formando parte de "
+"una <strong>red global</strong>."
+
+#: inc/patterns.php:65
+msgid ""
+"Consolidate a <strong>network</strong> of personal and professional "
+"<strong>contacts</strong> in <strong>knowledge areas</strong> of common "
+"interest."
+msgstr ""
+"Consolidar una <strong>red de contactos</strong> personales y profesionales "
+"en las <strong>áreas de conocimiento</strong> de interés común."
+
+#: inc/patterns.php:65
+msgid "For teachers"
+msgstr "Para docentes"
+
+#: inc/patterns.php:65
+msgid ""
+"Contextualize the <strong>transversal journey</strong> of students, beyond a "
+"subject."
+msgstr ""
+"Contextualizar el <strong>recorrido transversal</strong> de estudiantes, más "
+"allá de una asignatura."
+
+#: inc/patterns.php:65
+msgid ""
+"Confirm the <strong>originality of the authorship of the works</strong>."
+msgstr ""
+"Confirmar la <strong>originalidad de la autoría de los trabajos</strong>."
+
+#: inc/patterns.php:65
+msgid ""
+"<strong>Energize the classroom</strong> and <strong>encourage peer learning</"
+"strong> & feedback."
+msgstr ""
+"<strong>Dinamizar el aula</strong> e <strong>incentivar el aprendizaje</"
+"strong> y el feedback entre iguales."
+
+#: inc/patterns.php:65
+msgid ""
+"Connect knowledge and <strong>educational activit</strong>y with society and "
+"the working market."
+msgstr ""
+"Conectar el conocimiento y la <strong>actividad educativa</strong> con la "
+"sociedad y el mundo laboral."
+
+#: inc/patterns.php:65
+msgid "For institutions"
+msgstr "Para instituciones"
+
+#: inc/patterns.php:65
+msgid ""
+"Strengthen the <strong>students' sense of belonging to the institution</"
+"strong> and promote their autonomy."
+msgstr ""
+"Fortalecer el <strong>sentimiento de pertenencia de estudiantes a la "
+"institución</strong> y fomentar su autonomía."
+
+#: inc/patterns.php:65
+msgid ""
+"<strong>Strengthen relationships between members</strong> of the educational "
+"community."
+msgstr ""
+"<strong>Potenciar las relaciones entre los integrantes</strong> de la "
+"comunidad educativa."
+
+#: inc/patterns.php:65
+msgid "Value and <strong>maintain the link with the Alumni community</strong>."
+msgstr ""
+"Poner en valor y <strong>mantener el vínculo con la comunidad de Alumni</"
+"strong>."
+
+#: inc/patterns.php:65
+msgid ""
+"Project to the world <strong>the potential of students, teachers and the "
+"prestige</strong> of the institution itself."
+msgstr ""
+"Proyectar al mundo <strong>el potencial de estudiantes, docentes y el "
+"prestigio</strong> de la propia institución."
+
+#: inc/patterns.php:73 inc/patterns.php:76
+msgid "Shall we start?"
+msgstr "¿Empezamos?"
+
+#: inc/patterns.php:74
+msgctxt "folio-xarxa"
+msgid ""
+"Section shall we start with title and three columns of blocks with icons and "
+"helpful links"
+msgstr ""
+"Sección empezamos, con título, descripción y tres columnas de bloques con "
+"iconos y links útiles"
+
+#: inc/patterns.php:76
+#, php-format
+msgid "Do you need help? %sGet started%s with these first steps"
+msgstr "¿Quieres ayuda? %sEmpieza%s con estos primeros pasos"
+
+#: inc/patterns.php:76
+#, php-format
+msgid ""
+"Are you a teacher? %sLearn%s how to take advantage of the tool in the "
+"classroom."
+msgstr "¿Eres docente? %sAprende%s cómo aprovechar la herramienta en el aula."
+
+#: inc/patterns.php:76
+#, php-format
+msgid "Are you interested in the project? Get in %scontact%s with us"
+msgstr "¿Te interesa el proyecto? Ponte en %scontacto%s con nosotros"
+
+#: inc/patterns.php:84
+msgid "Featured section with four columns"
+msgstr "Sección destacados con cuatro columnas"
+
+#: inc/patterns.php:85
+msgctxt "Block pattern description"
+msgid ""
+"Featured section with title, description and four columns of alternately "
+"aligned blocks with icons"
+msgstr ""
+"Sección destacados con título, descripción y cuatro columnas de bloques "
+"alineados alternativamente con iconos"
+
+#: inc/patterns.php:95
+msgid "Featured section with three columns"
+msgstr "Sección destacados con tres columnas"
+
+#: inc/patterns.php:96
+msgctxt "Block pattern description"
+msgid ""
+"Featured section with title, description and three columns of blocks with "
+"icons and action buttons"
+msgstr ""
+"Sección destacados con título, descripción y tres columnas de bloques con "
+"iconos y botones de acción"
+
 #: inc/setup.php:52
 msgid "Primary menu"
 msgstr "Menú principal"
@@ -294,51 +645,51 @@ msgstr "Muy grande"
 msgid "Huge"
 msgstr "Extra grande"
 
-#: inc/setup.php:241
+#: inc/setup.php:251
 msgid "Red Light"
 msgstr "Rojo claro"
 
-#: inc/setup.php:251
+#: inc/setup.php:261
 msgid "Green Light"
 msgstr "Verde claro"
 
-#: inc/setup.php:261
+#: inc/setup.php:271
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/setup.php:266
+#: inc/setup.php:276
 msgid "White"
 msgstr "Blanco"
 
-#: inc/setup.php:298
+#: inc/setup.php:308
 msgid "Footer"
 msgstr "Pié de página"
 
-#: inc/setup.php:299
+#: inc/setup.php:309
 msgid "Add widgets here to appear in your footer site."
 msgstr "Añade aquí los widgets que aparecerán en el pie de página de tu sitio."
 
-#: inc/setup.php:353
+#: inc/setup.php:363
 msgid "(opens in new window)"
 msgstr "(se abre en nueva ventana)"
 
-#: inc/setup.php:354
+#: inc/setup.php:364
 msgid "Close menu"
 msgstr "Cerrar menú"
 
-#: inc/setup.php:355
+#: inc/setup.php:365
 msgid "Loading"
 msgstr "Cargando"
 
-#: inc/setup.php:356
+#: inc/setup.php:366
 msgid "expand / collapse"
 msgstr "expandir / contraer"
 
-#: inc/setup.php:357
+#: inc/setup.php:367
 msgid "Load more"
 msgstr "Cargar más"
 
-#: inc/setup.php:447
+#: inc/setup.php:457
 msgid "This theme requires you to install the Folio Xarxa Companion Plugin."
 msgstr ""
 "Este tema requiere que instales el plugin Folio Xarxa de acompañamiento."
@@ -443,37 +794,37 @@ msgstr ""
 "Guarda mi nombre, correo electrónico y sitio web en este navegador para la "
 "próxima vez que comente."
 
-#: inc/utils.php:162 inc/utils.php:210
+#: inc/utils.php:171 inc/utils.php:219
 msgid "Home"
 msgstr "Inicio"
 
-#: inc/utils.php:173 inc/utils.php:175 inc/utils.php:177 inc/utils.php:179
-#: inc/utils.php:181
+#: inc/utils.php:182 inc/utils.php:184 inc/utils.php:186 inc/utils.php:188
+#: inc/utils.php:190
 #, php-format
 msgid "<li class=\"breadcrumb-item\">%s</li>"
 msgstr "<li class=\"breadcrumb-item\">%s</li>"
 
-#: inc/utils.php:175
+#: inc/utils.php:184
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: inc/utils.php:177
+#: inc/utils.php:186
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: inc/utils.php:184
+#: inc/utils.php:193
 #, php-format
 msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
 msgstr "<li class=\"breadcrumb-item\">Buscar: %s</li>"
 
-#: inc/utils.php:297
+#: inc/utils.php:292
 msgctxt "Added to posts and pages that are missing titles"
 msgid "Untitled"
 msgstr "Sin título"
 
-#: inc/utils.php:382
+#: inc/utils.php:377
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -526,3 +877,15 @@ msgstr "Buscar por:"
 #: template-parts/searchform.php:4 template-parts/searchform.php:6
 msgid "Search"
 msgstr "Buscar"
+
+#~ msgid ""
+#~ "Are you interested in the project? Get in <a href=\"mailto:qberga@uoc."
+#~ "edu\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>contact</"
+#~ "strong></a> with us"
+#~ msgstr ""
+#~ "¿Te interesa el proyecto? Ponte en <a href=“mailto:qberga@uoc.edu” "
+#~ "target=“_blank” rel=“noreferrer noopener”><strong>contacto</strong></a>  "
+#~ "con nosotros"
+
+#~ msgid "Cover section with accordion"
+#~ msgstr "Sección de cubierta con acordeón"

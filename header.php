@@ -14,9 +14,20 @@ use FolioXarxa\Assets\AssetResolver;
 use FolioXarxa\Utils;
 
 $content_align = get_theme_mod('folio_xarxa_align', '');
+$header_width = get_theme_mod('folio_xarxa_header_width', 'wide');
 $lang_menu_show = get_theme_mod('folio_xarxa_lang_show', true);
 $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
+$uoc_foot_show = get_theme_mod('folio_xarxa_uoc_foot_show', false);
 
+$header_container = 'container';
+switch ($header_width){
+	case 'wide';
+		$header_container .= ' container-wide';
+		break;
+	case 'full':
+		$header_container = 'container-fluid';
+		break;
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -42,6 +53,11 @@ $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
 	<link rel="manifest" href="<?php echo get_stylesheet_directory_uri() ?>/site.webmanifest">
 
 	<?php wp_head(); ?>
+
+	<?php if (!$uoc_foot_show) : ?>
+		<style type="text/css">.uoc_portafolis_footer{display:none!important}</style>
+	<?php endif; ?>
+	
 </head>
 
 <body <?php body_class(); ?>>
@@ -60,7 +76,7 @@ $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
 
 		<header id="masthead" class="site-header">
 
-			<div class="container container-wide d-flex position-relative justify-content-between">
+			<div class="<?php echo $header_container ?> d-flex position-relative justify-content-between">
 
 				<div class="site-branding d-flex align-items-center">
 
@@ -96,23 +112,28 @@ $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
 
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="site-menu navbar navbar-expand flex-fill py-0">
+				<?php $nav_class = ($cta_show || $lang_menu_show) ? '' : 'navbar-right'; ?>
+
+				<nav id="site-navigation" class="site-menu navbar navbar-expand flex-fill py-0 <?php echo $nav_class?>">
 
 					<div class="d-none d-lg-flex flex-lg-fill">
 
 						<?php
+						$align_class = ($cta_show || $lang_menu_show) ? 'mx-auto' : 'ml-auto';
 						wp_nav_menu(
 							array(
 								'theme_location' 	=> 'primary-menu',
 								'menu_id'        	=> 'primary-menu',
 								'depth'             => 2, // 1 = no dropdowns, > 1 top level dropdown
 								'container'	=> '',
-								'menu_class'        => 'navbar-nav mx-auto',
+								'menu_class'        => 'navbar-nav ' . $align_class,
 								'fallback_cb'       => 'FolioXarxa\Nav\WP_Bootstrap_Navwalker::fallback',
 								'walker'            => new FolioXarxa\Nav\WP_Bootstrap_Navwalker(),
 							)
 						);
 						?>
+
+						<?php if($cta_show || $lang_menu_show) : ?>
 
 						<nav class="top-menu d-flex align-items-center ml-3 mr-n3">
 
@@ -133,6 +154,8 @@ $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
 							<?php if($lang_menu_show) Utils\language_selector(); ?>
 
 						</nav>
+
+						<?php endif; ?>
 
 					</div>
 
@@ -155,6 +178,4 @@ $cta_show = get_theme_mod('folio_xarxa_cta_show', false);
 
 		<div id="site-container" class="site-container">
 
-			<div class="container">
-
-				<div id="site-content" class="site-content py-5 <?php echo $content_align; ?>">
+			<div id="site-content" class="site-content py-5 <?php echo $header_width; ?>">

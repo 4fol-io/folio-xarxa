@@ -51,6 +51,13 @@
 
 .site-menu{
 
+
+    &.navbar-right{
+        .navbar-nav{
+            margin-right: -1rem;
+        }
+    }
+
     .navbar-nav {
 
         .nav-link {

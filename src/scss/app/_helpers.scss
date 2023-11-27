@@ -46,3 +46,8 @@ mark {
         margin-left: auto;
     }
 }
+
+/* Hide UOC Tools */
+body.hide-uoc-tools .uoc_portafolis_tools{
+    display: none!important;
+}

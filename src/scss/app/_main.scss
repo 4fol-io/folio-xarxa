@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 600px){
     #wpadminbar {
         position: fixed !important;
@@ -18,13 +17,69 @@
 }
 
 .site-container{
-    overflow:hidden;
+    //overflow:hidden;
+    margin-left: $grid-gutter-width * .5;
+    margin-right: $grid-gutter-width * .5;
 }
 
-/*
+
 @include media-breakpoint-up(xl) {
     .container-wide {
-        max-width: 1380px;
+        max-width: $wide-container-max-width;
     }
 }
-*/
+
+
+.site-content > .widecolumn,
+.post-thumbnail,
+.featured-img,
+.entry-header,
+.entry-footer,
+.comments-area,
+.widget-area,
+.entry-content .wp-audio-shortcode, 
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+.entry-content .wp-block-separator.is-style-wide:not(.alignwide):not(.alignfull),
+[class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained) {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    max-width: 100%;
+
+    // Responsive containers that are 100% wide until a breakpoint
+    @each $breakpoint, $container-max-width in $container-max-widths {
+        @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+            max-width: calc($container-max-width - $grid-gutter-width);
+        }
+    }
+
+}
+
+
+/**
+ * 13.0 - Multisites
+ */
+
+.site-content {
+    .widecolumn {
+        margin-bottom: 2.5rem;
+    }
+
+    .widecolumn .mu_register {
+        width: auto;
+        a{
+            text-decoration: underline;
+        }
+    }
+
+    .widecolumn .mu_register .mu_alert {
+        background: white;
+        border: 1px solid $gray-100;
+        color: inherit;
+        margin-bottom: 2.5rem;
+        padding: 2rem;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 40px rgba(43,89,255,.08);
+    }
+
+}

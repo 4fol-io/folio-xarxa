@@ -5,7 +5,7 @@
  * @package FolioXarxa
  */
 
-define('FOLIO_XARXA_THEME_VERSION',  '1.0.0');
+define('FOLIO_XARXA_THEME_VERSION',  '1.0.5');
 define('FOLIO_XARXA_NO_IMAGE',       get_stylesheet_directory_uri() . '/dist/images/no-image.jpg');
 
 $folio_xarxa_includes = array(
@@ -13,7 +13,8 @@ $folio_xarxa_includes = array(
   '/setup.php',                           // Theme setup and custom theme supports
   '/images.php',                          // Theme image custom utils
   '/assets.php',                          // Assets management
-  '/blocks.php',                          // Blocks (alingwide, alignfull) wrapper
+  '/blocks.php',                          // Blocks column count, (alingwide, alignfull) wrapper
+  '/patterns.php',                        // Block patterns
   '/utils.php',                           // General utils, filters, action hooks,...
   '/nav.php',                             // Custom Bootstrap Nav Walker
   '/pagination.php',                      // Custom pagination

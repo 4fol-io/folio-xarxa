@@ -30,6 +30,21 @@ Folio Xarxa includes support for Infinite Scroll in Jetpack.
 = 1.0 =
 * Initial release
 
+= 1.0.2 =
+* Added pnpm compatibility
+* Align menu right if no CTA and no Lang menu
+
+= 1.0.3 =
+- Fix: Scroll to anchors
+
+= 1.0.4 =
+- Added theme.json
+- Refactor theme containers
+- Added home block patterns
+
+= 1.0.5 =
+- Update patterns and translated
+
 == Credits ==
 
 * Based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
