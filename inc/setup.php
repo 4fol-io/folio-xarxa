@@ -140,6 +140,16 @@ function setup() {
 		),
 	) );
 
+	// Add support for block editor custom line height
+	add_theme_support('custom-line-height');
+
+	// Add support for block editor custom spacing
+	add_theme_support('custom-spacing');
+	
+	// Requiere revisar wrapper
+	//add_theme_support( 'appearance-tools' );
+	
+
 
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\setup' );

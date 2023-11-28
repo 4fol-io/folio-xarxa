@@ -271,7 +271,7 @@ class WP_Bootstrap_Navwalker extends \Walker_Nav_Menu {
 			}
 
 			/** This filter is documented in wp-includes/post-template.php */
-			$title = apply_filters( 'the_title', esc_html( $item->title ), $item->ID );
+			$title = apply_filters( 'the_title', $item->title, $item->ID );
 
 			/**
 			 * Filters a menu item's title.
@@ -607,3 +607,18 @@ function add_sub_menu_toggle( $output, $item, $depth, $args ) {
 }
 add_filter( 'walker_nav_menu_start_el', __NAMESPACE__ . '\\add_sub_menu_toggle', 10, 4 );
 
+
+function custom_dropdown_class( $classes ) {
+	$lang_menu_show = get_theme_mod('folio_xarxa_lang_show', true);
+	$cta_show = get_theme_mod('folio_xarxa_cta_show', false);
+  
+	if(!$cta_show && !$lang_menu_show){
+	  $classes[] = 'dropdown-menu-right';
+	}
+  
+	return $classes;
+}
+  
+add_filter( 'nav_menu_submenu_css_class', __NAMESPACE__ . '\\custom_dropdown_class', 100, 1 );
+  
+  

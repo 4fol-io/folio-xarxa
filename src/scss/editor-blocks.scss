@@ -28,6 +28,7 @@
     // @import "app/main";
     @import "app/typo";
     @import "app/colors";
+    @import "app/patterns";
 
     /*h1, .h1, h2, .h2, h3, .h3, h4, .h4{
         margin-bottom: 1rem; 
@@ -62,5 +63,13 @@
     font-size: $font-size-base;
 	color: $body-color;
 	line-height: $line-height-base;
+
+    a:not(.btn):not(.button):not(.wp-block-button__link):not(.wp-element-button){
+        text-decoration: underline;
+    }
     
+}
+
+html .editor-styles-wrapper {
+    padding: 8px 8px 30px;
 }

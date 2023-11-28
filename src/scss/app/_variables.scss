@@ -22,6 +22,7 @@ $alignment-width-xl: 47%;
 $editor-alignment-width: 49.5%;
 $img-ratio-43: 75%;             // 4:3 aspect ratio
 $img-ratio-169: 56.25%;         // 16:9 aspect ratio
+$wide-container-max-width: 1380px;
 
 
 
@@ -57,6 +58,7 @@ $grays: map-merge(
 
 $blue:        #00233D;
 $blue-light:  #455a6e;
+$blue-alt:    #719FC1;
 $purple:      #B8B8D1;
 $red:         #FD4C5C;
 $red-light:   #FF6B6C;
@@ -269,10 +271,10 @@ $container-max-widths: (
 ) !default;
 
 $wide-max-widths: (
-  sm: 600px,
-  md: 780px,
-  lg: 1060px,
-  xl: 1260px,
+  sm: 620px,
+  md: 860px,
+  lg: 1080px,
+  xl: 1360px,
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -351,22 +353,29 @@ $font-size-normal:            1rem;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
-$font-weight-bold:            700 !default;
+$font-weight-bold:            600 !default;
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 2.5;
+/*$h1-font-size:                $font-size-base * 2.5;
 $h2-font-size:                $font-size-base * 1.75;
 $h3-font-size:                $font-size-base * 1.5;
 $h4-font-size:                $font-size-base * 1.25;
+$h5-font-size:                $font-size-base * 1.1;*/
+
+$h1-font-size:                $font-size-base * 2.125;
+$h2-font-size:                $font-size-base * 1.5;
+$h3-font-size:                $font-size-base * 1.25;
+$h4-font-size:                $font-size-base * 1.125;
 $h5-font-size:                $font-size-base * 1.1;
+
 $h6-font-size:                $font-size-base;
 
-$headings-margin-bottom:      1rem;
+$headings-margin-bottom:      1.25rem;
 $headings-font-family:        null !default;
-$headings-font-weight:        $font-weight-bolder;
+$headings-font-weight:        $font-weight-bold;
 $headings-line-height:        1.2 !default;
 $headings-color:              null !default;
 
@@ -406,7 +415,7 @@ $list-inline-padding:         .5rem !default;
 
 $mark-bg:                     $green-light;
 
-$hr-margin-y:                 $spacer !default;
+$hr-margin-y:                 $spacer * 2;
 
 
 // Tables

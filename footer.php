@@ -15,11 +15,9 @@ $footer_text = get_theme_mod('folio_xarxa_footer_text', '');
 $footer_align = get_theme_mod('folio_xarxa_footer_align', '');
 
 ?>
-			</div><!-- #site-content -->
+		</div><!-- #site-content -->
 
-			<?php get_sidebar(); ?>
-
-		</div><!-- .container -->
+		<?php get_sidebar(); ?>
 
 	</div><!-- #site-container -->
 

@@ -102,6 +102,11 @@ function body_classes($classes) {
     $classes[] = 'hfeed';
   }
 
+  $show_uoc_tools = get_theme_mod('folio_xarxa_uoc_tools_show', false);
+	if(!$show_uoc_tools){
+			$classes[] = 'hide-uoc-tools';
+	}
+	
   return $classes;
 }
 add_filter('body_class',  __NAMESPACE__ . '\\body_classes');
@@ -385,6 +390,11 @@ function remove_admin_bar() {
 // add_action('after_setup_theme',  __NAMESPACE__ . '\\remove_admin_bar');
 
 
+
+/**
+ * Redirect to 404
+ */
+// remove_action( 'template_redirect', 'maybe_redirect_404' );
 
 /**
  *  Disable Gutenberg Editor

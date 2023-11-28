@@ -1,3 +1,4 @@
+/*
 [data-type="core/cover"] {
 
     &[data-align="left"],
@@ -49,9 +50,14 @@
 
 }
 
-
-
 .wp-block-cover, 
 .wp-block-cover-image{
 	min-height: 500px;
+}
+*/
+
+
+.wp-block-cover-image.is-light .wp-block-cover__inner-container, 
+.wp-block-cover.is-light .wp-block-cover__inner-container{
+	color: $dark;
 }

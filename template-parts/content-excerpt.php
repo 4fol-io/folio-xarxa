@@ -35,9 +35,11 @@ use FolioXarxa\Templates;
 	}
 	?>
 
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+    <div class="entry-content">
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
+	</div>
 
 	<footer class="entry-footer">
 		<?php Templates\entry_footer(); ?>

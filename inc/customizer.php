@@ -54,6 +54,12 @@ function customize_register( $wp_customize ) {
 		'masonry' => __( 'Masonry', 'folio-xarxa' ), 
 	);
 
+	$width_choices = array (
+		'' => __( 'Normal', 'folio-xarxa' ), 
+		'wide' => __( 'Wide', 'folio-xarxa' ), 
+		'full' => __( 'Full width', 'folio-xarxa' ), 
+	);
+
 	$content_choices = array (
 		'' => __( '&mdash; Select &mdash;', 'folio-xarxa' ),
 		'full' => __( 'Full content', 'folio-xarxa' ), 
@@ -103,6 +109,31 @@ function customize_register( $wp_customize ) {
 		'type' => 'select',
 		'choices' => $align_choices
 	) );
+
+	$wp_customize->add_setting( 'folio_xarxa_header_width', array (
+		'default' 		=> 'wide',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_select',
+	) );
+	  
+	$wp_customize->add_control( 'folio_xarxa_header_width', array (
+		'label' => __( 'Header width', 'folio-xarxa' ),
+		'section' => 'folio-xarxa',
+		'type' => 'select',
+		'choices' => $width_choices
+	) );
+
+	$wp_customize->add_setting( 'folio_xarxa_archive_width', array (
+		'default' 		=> '',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_select',
+	) );
+	  
+	$wp_customize->add_control( 'folio_xarxa_archive_width', array (
+		'label' => __( 'Archive width (for Grid and Masonry layouts)', 'folio-xarxa' ),
+		'section' => 'folio-xarxa',
+		'type' => 'select',
+		'choices' => $width_choices
+	) );
+
 
 	$wp_customize->add_setting( 'folio_xarxa_archive_layout', array (
 		'default' 		=> '',
@@ -174,11 +205,36 @@ function customize_register( $wp_customize ) {
     ) );
 
 	$wp_customize->add_control( new Toggle_Custom_Control( $wp_customize, 'folio_xarxa_breadcrumb_show', array (
-		'label'       => esc_html__( 'Display Breadcrumb', 'folio-xarxa' ),
+		'label'       => esc_html__( 'Display Breadcrumbs', 'folio-xarxa' ),
 		'section'     => 'folio-xarxa',
 		'type'        => 'toggle',
 	) ) );
 
+	
+	$wp_customize->add_setting( 'folio_xarxa_uoc_tools_show', array (
+        'default' 		=> false,
+		//'transport'         => 'postMessage',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_checkbox',
+    ) );
+
+	$wp_customize->add_control( new Toggle_Custom_Control( $wp_customize, 'folio_xarxa_uoc_tools_show', array (
+		'label'       => esc_html__( 'Display UOC Tools', 'folio-xarxa' ),
+		'section'     => 'folio-xarxa',
+		'type'        => 'toggle',
+	) ) );
+
+	$wp_customize->add_setting( 'folio_xarxa_uoc_foot_show', array (
+        'default' 		=> false,
+		//'transport'         => 'postMessage',
+		'sanitize_callback' => 'FolioXarxa\Customizer\sanitize_checkbox',
+    ) );
+
+	$wp_customize->add_control( new Toggle_Custom_Control( $wp_customize, 'folio_xarxa_uoc_foot_show', array (
+		'label'       => esc_html__( 'Display UOC Footer', 'folio-xarxa' ),
+		'section'     => 'folio-xarxa',
+		'type'        => 'toggle',
+	) ) );
+ 
 
 	$wp_customize->add_setting('folio_xarxa_secc_heading', array()); // dummy
 

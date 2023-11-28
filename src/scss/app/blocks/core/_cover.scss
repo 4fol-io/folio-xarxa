@@ -32,7 +32,7 @@
 	}
 
 	.wp-block-cover__inner-container {
-		@extend .container; 
+		//@extend .container; 
 	}
 
 	/*&.alignfull{
@@ -64,4 +64,9 @@
 .wp-block-cover-image{
 	/*min-height: 300px;*/
 	padding: 2rem 0;
+}
+
+.wp-block-cover-image.is-light .wp-block-cover__inner-container, 
+.wp-block-cover.is-light .wp-block-cover__inner-container{
+	color: $dark;
 }

@@ -5,11 +5,12 @@
 // -----------------------------------------------------------------------------
 
 // Import core blocks.
+@import 'blocks/core/base';
 // @import 'blocks/core/audio';
-// @import 'blocks/core/button';
+@import 'blocks/core/button';
 // @import 'blocks/core/categories';
 // @import 'blocks/core/code';
-// @import 'blocks/core/columns';
+@import 'blocks/core/columns';
 @import 'blocks/core/cover';
 // @import 'blocks/core/embed';
 // @import 'blocks/core/file';
@@ -24,6 +25,6 @@
 @import 'blocks/core/quote';
 // @import 'blocks/core/rss';
 // @import 'blocks/core/search';
-// @import 'blocks/core/separator';
+@import 'blocks/core/separator';
 // @import 'blocks/core/tables';
 // @import 'blocks/core/verse';

@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "border": {
+            "radius": true,
+            "color": true,
+            "style": true,
+            "width": true
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "blockGap": null,
+            "units": [ "px", "em", "rem", "vh", "vw" ]
+        },
+        "color": {
+			"defaultPalette": false
+		},
+        "layout": {
+			"contentSize": "1060px",
+			"wideSize": "1360px"
+		},
+        "typography": {
+            "customFontSize": true,
+            "lineHeight": true,
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": true,
+            "textDecoration": true,
+            "textTransform": true
+        },
+        "blocks": {
+            "core/group":{
+                "spacing": {
+                    "blockGap": true
+                }
+            }
+        }
+    }
+}

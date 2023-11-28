@@ -6,10 +6,11 @@
 
 // Import editor blocks.
 @import "blocks/editor/core";
+@import "blocks/editor/patterns";
 // @import "blocks/editor/audio";
 @import "blocks/editor/button";
 // @import "blocks/editor/categories";
-// @import "blocks/editor/cover";
+@import "blocks/editor/cover";
 // @import "blocks/editor/embed";
 // @import "blocks/editor/file";
 // @import "blocks/editor/gallery";
@@ -20,7 +21,7 @@
 @import "blocks/editor/quote";
 // @import "blocks/editor/rss";
 // @import "blocks/editor/search";
-// @import "blocks/editor/separator";
+@import "blocks/editor/separator";
 // @import "blocks/editor/tables";
 // @import "blocks/editor/verse";
 
